@@ -1,0 +1,9 @@
+student_data/
+.student_data/
+tinyimg/
+.tinyimg/
+*.pth
+*.pt
+*.tar
+*.zip
+*.gz

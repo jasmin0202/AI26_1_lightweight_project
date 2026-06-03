@@ -1,0 +1,13 @@
+name,acc,kind,w_resnet,t_resnet,t_mobilenet,use_tta,output_pt,params,file_size_mb
+best_weighted_w0.4500_tta,0.6917999982833862,weighted_logit,0.45,,,True,newtest_0.pt,4658172,18.434892654418945
+best_temp_logit_w0.5500_tr1.750_tm1.200_tta,0.6913999915122986,temp_logit,0.55,1.75,1.2,True,newtest_1.pt,4658172,18.442821502685547
+best_prob_w0.5500_tr3.000_tm3.000_tta,0.6909999847412109,prob,0.55,3.0,3.0,True,newtest_2.pt,4658172,18.444851875305176
+half_logit_w0.5000_tta,0.6904000043869019,weighted_logit,0.5,,,True,newtest_3.pt,4658172,18.443784713745117
+best_temp_logit_w0.5500_tr1.750_tm1.200,0.6899999976158142,temp_logit,0.55,1.75,1.2,False,newtest_4.pt,4658172,18.414822578430176
+best_weighted_w0.4500,0.6895999908447266,weighted_logit,0.45,,,False,newtest_5.pt,4658172,18.414267539978027
+half_logit_w0.5000,0.6886000037193298,weighted_logit,0.5,,,False,,,
+best_prob_w0.5500_tr3.000_tm3.000,0.6869999766349792,prob,0.55,3.0,3.0,False,,,
+mobilenet_only_tta,0.6603999733924866,mobilenet,,,,True,,,
+mobilenet_only,0.6588000059127808,mobilenet,,,,False,,,
+resnet_only_tta,0.6425999999046326,resnet,,,,True,,,
+resnet_only,0.6366000175476074,resnet,,,,False,,,
